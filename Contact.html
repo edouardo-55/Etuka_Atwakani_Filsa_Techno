@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Filsa Technologie</title>
+
+    <!-- Lien CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo">
+            <h1>Filsa Technologie</h1>
+        </div>
+        <ul>
+            <li><a href="Index.htmlSS">Accueil</a></li>
+            <li><a href="A_propos.html">À propos</a></li>
+            <li><a href="Produits.html">Produits</a></li>
+            <li><a href="Ventes.html">Ventes</a></li>
+            <li><a href="Contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main-content">
+    <section class="contact">
+        <h1>Contactez-nous</h1>
+
+        <form id="contactForm" class="contact-form">
+            <input type="text" id="nom" placeholder="Votre nom" required>
+            <input type="text" id="prenom" placeholder="Votre prénom" required>
+            <input type="email" id="email" placeholder="Votre email" required>
+            <textarea id="message" placeholder="Votre message" required></textarea>
+
+            <div class="button-group">
+                <button type="submit" class="btn submit">Envoyer</button>
+            </div>
+
+            <p id="confirmationMessage" class="hidden"></p>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 Filsa Technologie. Faites vos réservations en toute sécurité.</p>
+</footer>
+
+<!-- Lien JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
